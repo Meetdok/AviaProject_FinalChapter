@@ -51,5 +51,11 @@ namespace WpfProject.Windows
             FlightsOrder f = new FlightsOrder();
             f.Show();
         }
+
+        private void Settings(object sender, RoutedEventArgs e)
+        {
+            SettingsUsers s = new SettingsUsers();
+            s.Show();
+        }
     }
 }

@@ -50,9 +50,9 @@ namespace WpfProject.Windows
             });           
             User result = HttpApi.Deserialize<User>(json);
 
-            
+            MessageBox.Show("Вы успешно зарегистрировались!");
 
-            MainMenu m = new MainMenu();
+            MainWindow m = new MainWindow();
             m.Show();
             this.Close();
 

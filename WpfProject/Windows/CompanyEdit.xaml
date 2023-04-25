@@ -9,8 +9,6 @@
     <Grid>
         <TextBox Text="{Binding Title}" HorizontalAlignment="Left" Margin="85,70,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="21" Width="350" Background="#FFE2CFCF"/>
         <Label Content="Название" HorizontalAlignment="Left" Margin="27,65,0,0" VerticalAlignment="Top"/>
-        <Label Content="Цена" HorizontalAlignment="Left" Margin="51,122,0,0" VerticalAlignment="Top"/>
-        <TextBox Text="{Binding Cost}" HorizontalAlignment="Left" Margin="85,124,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="21" Width="350" Background="#FFE2CFCF"/>
         <ComboBox ItemsSource="{Binding Service}" SelectedItem="{Binding SelectedService}" DisplayMemberPath="ServiceType" HorizontalAlignment="Left" Margin="85,96,0,0" VerticalAlignment="Top" Height="21" Width="131" Background="#FFE2CFCF"/>
         <Label Content="Сервис:" HorizontalAlignment="Left" Margin="37,94,0,0" VerticalAlignment="Top"/>
         <Button Content="Сохранить" Command="{Binding Save}" HorizontalAlignment="Center" Margin="0,371,0,0" VerticalAlignment="Top" Height="45"/>

@@ -21,6 +21,7 @@
                     <ImageBrush ImageSource="/Windows/User.png"/>
                 </MenuItem.Background>
                 <MenuItem Header="Билеты" Command="{Binding nav_tickets}"/>
+                <MenuItem Header="Настройки" Click="Settings"/>
                 <MenuItem Header="Выход" Click="Exit"/>
             </MenuItem>
             <MenuItem Header="Самолёты" Command="{Binding nav_airplanes}"/>
