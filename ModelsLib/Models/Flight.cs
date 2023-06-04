@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WebProject.WebModels
+namespace ModelsLib.Models
 {
     public partial class Flight
     {
@@ -17,7 +17,7 @@ namespace WebProject.WebModels
         public string? FlightCityArrival { get; set; }
         public int? FlightCompanyId { get; set; }
         public int? AirplaneId { get; set; }
-        public int? NumberOfSeats { get; set; }
+        public int? NumberOfSeats { get; set; }       
 
         public virtual Airplane? Airplane { get; set; }
         public virtual FlightCompany? FlightCompany { get; set; }

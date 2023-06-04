@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WebProject.WebModels
+namespace ModelsLib.Models
 {
     public partial class AirplaneClassFlight
     {
-        public int Idflight { get; set; }
+        public int ClassFlightId { get; set; }
         public int? ClassId { get; set; }
         public long? SeatCost { get; set; }
         public int? FlightId { get; set; }

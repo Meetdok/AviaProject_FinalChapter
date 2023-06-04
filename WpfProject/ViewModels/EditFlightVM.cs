@@ -1,10 +1,10 @@
-﻿using System;
+﻿using ModelsLib.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using WebProject.WebModels;
 using WpfProject.Tools;
 
 namespace WpfProject.ViewModels

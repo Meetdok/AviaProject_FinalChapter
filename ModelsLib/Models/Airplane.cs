@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WebProject.WebModels
+
+namespace ModelsLib.Models
 {
     public partial class Airplane
     {

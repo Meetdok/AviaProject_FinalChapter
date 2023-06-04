@@ -1,4 +1,4 @@
-﻿namespace WebProject.Controllers
+﻿namespace ModelsLib.Models
 {
     public class Auth
     {
