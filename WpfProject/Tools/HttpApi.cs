@@ -11,7 +11,7 @@ using System.Windows;
 // 7091
 namespace WpfProject.Tools
 {
-    internal static class HttpApi
+    public static class HttpApi
     {
         static HttpClient client = new HttpClient();
         static string host = "https://localhost:7091/api/";

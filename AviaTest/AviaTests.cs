@@ -6,6 +6,7 @@ using WebProject.Database;
 using WpfProject;
 using WpfProject.ViewModels;
 using WpfProject.Windows;
+using WpfProject.Tools;
 
 namespace AviaTest
 {
@@ -77,9 +78,34 @@ namespace AviaTest
         }
 
         [Test]
-        public void TestCommand_btn_back()
-        {            
-            
+        public void User_Creation_Correct_Test()
+        {
+            var user = new MainMenuGuestVM();
+            Assert.IsNotNull (user);
         }
+
+        [Test]
+        public async Task Command_Save_Check()
+        {
+            var vm = new ListUserVM();
+            Assert.IsNotNull(vm.Save);
+        }
+
+        [Test]
+        public async Task Command_Delete_Check()
+        {
+            var vm = new ListUserVM();
+            Assert.IsNotNull(vm.DeleteUser);
+        }
+
+        //[Test]
+        //public void LastTest()
+        //{
+        //    var listAirplane = new ListUserVM();
+        //    var expectedClass = new User();
+        //    listAirplane.User = expectedClass;
+        //    var actualList = listAirplane.User;
+        //    Assert.AreEqual(expectedClass, actualList);
+        //}
     }
 }
